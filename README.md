@@ -6,11 +6,11 @@ Loader part of the Wii EasyRPG Player Channel
 - Initializes the Wii console and specifically GX (Video Output)
 - Displays a nice background image with fadein
 - Searches for connected devices (SD/USB)
-- Tries to load the boot.dol/.elf from the devices in descending order:
-  - /apps/easyrpg/
-  - /easyrpg/
-- fades to black and executes the found Player executable
-- returns to the Homebrew Channel/System Menu if loading failed
+- Tries to load the `boot.dol/.elf` from the devices in descending order:
+  - `/apps/easyrpg/`
+  - `/easyrpg/`
+- Fades to black and executes the found Player executable
+- Returns to the Homebrew Channel/System Menu if loading failed
 
 ## Compiling
 
